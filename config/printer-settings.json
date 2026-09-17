@@ -1,0 +1,22 @@
+{
+  "softwareEngineer": {
+    "_comment": "FIXED - Software Engineer/Company Branding - NOT EDITABLE BY USERS",
+    "companyName": "Your Software House Name",
+    "developerName": "Your Name",
+    "contactEmail": "contact@yoursoftware.com",
+    "contactPhone": "+92-XXX-XXXXXXX",
+    "website": "www.yoursoftware.com",
+    "supportUrl": "support.yoursoftware.com",
+    "footerText": "Developed by [Your Software House] | www.yoursoftware.com | Support: +92-XXX-XXXXXXX",
+    "version": "1.0.0",
+    "licenseInfo": "Licensed Software - Unauthorized copying prohibited"
+  },
+  "technicalDefaults": {
+    "_comment": "Default technical printer settings - Software Engineer can modify",
+    "paperSize": "80mm",
+    "paperWidth": 80,
+    "charactersPerLine": 42,
+    "encoding": "UTF-8",
+    "thermalPrinter": true
+  }
+}

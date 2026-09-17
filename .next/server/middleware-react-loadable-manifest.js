@@ -1,0 +1,1 @@
+self.__REACT_LOADABLE_MANIFEST='{"app\\\\(dashboard)\\\\medicines\\\\page.tsx -> @/app/actions/medicines":{"id":34076,"files":[]}}';

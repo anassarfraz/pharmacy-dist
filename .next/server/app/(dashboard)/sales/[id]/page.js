@@ -1,0 +1,50 @@
+(()=>{var e={};e.id=2638,e.ids=[2638],e.modules={11185:e=>{"use strict";e.exports=require("mongoose")},72934:e=>{"use strict";e.exports=require("next/dist/client/components/action-async-storage.external.js")},54580:e=>{"use strict";e.exports=require("next/dist/client/components/request-async-storage.external.js")},45869:e=>{"use strict";e.exports=require("next/dist/client/components/static-generation-async-storage.external.js")},20399:e=>{"use strict";e.exports=require("next/dist/compiled/next-server/app-page.runtime.prod.js")},84770:e=>{"use strict";e.exports=require("crypto")},71192:(e,t,s)=>{"use strict";s.r(t),s.d(t,{GlobalError:()=>n.a,__next_app__:()=>x,originalPathname:()=>m,pages:()=>c,routeModule:()=>p,tree:()=>d}),s(69996),s(83741),s(35866),s(1730);var r=s(23191),a=s(88716),i=s(37922),n=s.n(i),o=s(95231),l={};for(let e in o)0>["default","tree","pages","GlobalError","originalPathname","__next_app__","routeModule"].indexOf(e)&&(l[e]=()=>o[e]);s.d(t,l);let d=["",{children:["(dashboard)",{children:["sales",{children:["[id]",{children:["__PAGE__",{},{page:[()=>Promise.resolve().then(s.bind(s,69996)),"C:\\Users\\ABS\\Documents\\personal project\\pharmacy\\src\\app\\(dashboard)\\sales\\[id]\\page.tsx"]}]},{}]},{}]},{layout:[()=>Promise.resolve().then(s.bind(s,83741)),"C:\\Users\\ABS\\Documents\\personal project\\pharmacy\\src\\app\\(dashboard)\\layout.tsx"],"not-found":[()=>Promise.resolve().then(s.t.bind(s,35866,23)),"next/dist/client/components/not-found-error"]}]},{layout:[()=>Promise.resolve().then(s.bind(s,1730)),"C:\\Users\\ABS\\Documents\\personal project\\pharmacy\\src\\app\\layout.tsx"],"not-found":[()=>Promise.resolve().then(s.t.bind(s,35866,23)),"next/dist/client/components/not-found-error"]}],c=["C:\\Users\\ABS\\Documents\\personal project\\pharmacy\\src\\app\\(dashboard)\\sales\\[id]\\page.tsx"],m="/(dashboard)/sales/[id]/page",x={require:s,loadChunk:()=>Promise.resolve()},p=new r.AppPageRouteModule({definition:{kind:a.x.APP_PAGE,page:"/(dashboard)/sales/[id]/page",pathname:"/sales/[id]",bundlePath:"",filename:"",appPaths:[]},userland:{loaderTree:d}})},57151:(e,t,s)=>{let r={"0f199549f4c2595db00ad896e4434712ef06ba82":()=>Promise.resolve().then(s.bind(s,97883)).then(e=>e.signOut),"73e6a7bf47d813a0b7870e627ba8e896c5d64da3":()=>Promise.resolve().then(s.bind(s,97883)).then(e=>e.signIn)};async function a(e,...t){return(await r[e]()).apply(null,t)}e.exports={"0f199549f4c2595db00ad896e4434712ef06ba82":a.bind(null,"0f199549f4c2595db00ad896e4434712ef06ba82"),"73e6a7bf47d813a0b7870e627ba8e896c5d64da3":a.bind(null,"73e6a7bf47d813a0b7870e627ba8e896c5d64da3")}},26066:(e,t,s)=>{Promise.resolve().then(s.bind(s,70939))},86333:(e,t,s)=>{"use strict";s.d(t,{Z:()=>r});let r=(0,s(76557).Z)("ArrowLeft",[["path",{d:"m12 19-7-7 7-7",key:"1l729n"}],["path",{d:"M19 12H5",key:"x3x0zl"}]])},70939:(e,t,s)=>{"use strict";s.r(t),s.d(t,{default:()=>f});var r=s(10326),a=s(17577),i=s(35047),n=s(99837),o=s(95964),l=s(86333),d=s(54689),c=s(12714),m=s(3869),x=s(92068),p=s(46420),h=s(62196),u=s(21930),b=s(29614),g=s(90434);function f(){let e=(0,i.useParams)(),[t,s]=(0,a.useState)(null),[f,j]=(0,a.useState)(null),[y,v]=(0,a.useState)(!0),[w,N]=(0,a.useState)("a4"),[P,k]=(0,a.useState)(!1),[S,z]=(0,a.useState)(!1),A=(0,a.useRef)(null),C=(0,a.useRef)(null),_=(0,x.useReactToPrint)({content:()=>A.current,pageStyle:`
+      @page {
+        size: A4 portrait;
+        margin: 10mm 10mm 12mm 10mm;
+      }
+      @media print {
+        html, body {
+          margin: 0 !important;
+          padding: 0 !important;
+          background: #ffffff !important;
+          color: #000000 !important;
+        }
+        * {
+          -webkit-print-color-adjust: exact !important;
+          print-color-adjust: exact !important;
+        }
+        .a4-invoice-container {
+          visibility: visible !important;
+          display: block !important;
+          width: 100% !important;
+          max-width: 100% !important;
+          padding: 0 !important;
+          margin: 0 !important;
+        }
+      }
+    `}),q=(0,x.useReactToPrint)({content:()=>C.current,pageStyle:`
+      @page {
+        size: 80mm auto;
+        margin: 0;
+      }
+      @media print {
+        html, body {
+          margin: 0 !important;
+          padding: 0 !important;
+          background: #ffffff !important;
+          color: #000000 !important;
+        }
+        * {
+          -webkit-print-color-adjust: exact !important;
+          print-color-adjust: exact !important;
+        }
+        .thermal-receipt-container {
+          visibility: visible !important;
+          display: block !important;
+          width: 80mm !important;
+          margin: 0 auto !important;
+          padding: 4mm 3mm !important;
+        }
+      }
+    `});return y?r.jsx("div",{className:"flex items-center justify-center min-h-[400px]",children:(0,r.jsxs)("div",{className:"text-center",children:[r.jsx("div",{className:"w-8 h-8 border-4 border-teal-600 border-t-transparent rounded-full animate-spin mx-auto mb-3"}),r.jsx("p",{className:"text-gray-500 text-sm",children:"Loading invoice..."})]})}):t&&t.items?(0,r.jsxs)("div",{className:"max-w-4xl mx-auto space-y-6 pb-12",children:[(0,r.jsxs)("div",{className:"flex flex-col sm:flex-row sm:items-center justify-between gap-4 bg-white p-4 sm:p-5 rounded-2xl border border-gray-200 shadow-sm",children:[(0,r.jsxs)("div",{className:"flex items-center gap-3",children:[r.jsx(g.default,{href:"/sales",children:r.jsx(n.z,{variant:"ghost",size:"sm",className:"p-2",title:"Back to Sales",children:r.jsx(l.Z,{className:"h-4 w-4"})})}),(0,r.jsxs)("div",{children:[(0,r.jsxs)("div",{className:"flex items-center gap-2",children:[r.jsx("h1",{className:"text-xl sm:text-2xl font-bold text-gray-900",children:"Invoice Details"}),r.jsx("span",{className:"font-mono text-xs font-semibold px-2 py-0.5 rounded bg-gray-100 text-gray-800",children:t.invoiceNumber})]}),r.jsx("p",{className:"text-xs text-gray-500 mt-0.5",children:"Print in 80mm thermal or standard A4 format"})]})]}),(0,r.jsxs)("div",{className:"flex flex-wrap items-center gap-2",children:[(0,r.jsxs)("div",{className:"flex items-center bg-gray-100 p-1 rounded-xl border border-gray-200",children:[r.jsx("button",{onClick:()=>N("a4"),type:"button",className:`px-3 py-1.5 rounded-lg text-xs font-semibold transition-all ${"a4"===w?"bg-white text-gray-900 shadow-xs":"text-gray-500 hover:text-gray-900"}`,children:"A4 View"}),r.jsx("button",{onClick:()=>N("thermal"),type:"button",className:`px-3 py-1.5 rounded-lg text-xs font-semibold transition-all ${"thermal"===w?"bg-white text-gray-900 shadow-xs":"text-gray-500 hover:text-gray-900"}`,children:"Thermal View"})]}),(0,r.jsxs)(n.z,{variant:"outline",size:"sm",onClick:()=>z(!0),className:"flex items-center gap-1.5 text-amber-700 border-amber-300 hover:bg-amber-50",title:"Process Medicine Return / Refund",children:[r.jsx(d.Z,{className:"h-4 w-4"}),"Return Items"]}),(0,r.jsxs)(n.z,{variant:"outline",size:"sm",onClick:()=>k(!0),className:"flex items-center gap-1.5",children:[r.jsx(c.Z,{className:"h-4 w-4"}),"Full Preview"]}),(0,r.jsxs)(n.z,{onClick:q,variant:"outline",size:"sm",className:"flex items-center gap-1.5 text-teal-700 border-teal-200 hover:bg-teal-50",children:[r.jsx(o.Z,{className:"h-4 w-4"}),"Print Thermal"]}),(0,r.jsxs)(n.z,{onClick:_,size:"sm",className:"flex items-center gap-1.5 bg-teal-600 hover:bg-teal-700 text-white",children:[r.jsx(m.Z,{className:"h-4 w-4"}),"Print A4"]})]})]}),r.jsx("div",{className:"bg-slate-100/70 p-4 sm:p-8 rounded-2xl border border-gray-200 flex justify-center items-start min-h-[500px]",children:"thermal"===w?(0,r.jsxs)("div",{className:"relative my-2 animate-in zoom-in-95 duration-150",children:[r.jsx("div",{className:"h-3 bg-gray-200 border-x border-t border-gray-300 rounded-t-sm flex items-center justify-center overflow-hidden",children:r.jsx("div",{className:"w-full border-t border-dashed border-gray-400"})}),r.jsx("div",{className:"bg-white shadow-xl border-x border-gray-300",style:{width:"80mm",minHeight:"120mm"},children:r.jsx(p.A,{sale:t,settings:f})}),r.jsx("div",{className:"h-3 bg-gray-200 border-x border-b border-gray-300 rounded-b-sm flex items-center justify-center overflow-hidden",children:r.jsx("div",{className:"w-full border-t-2 border-dashed border-gray-400"})}),r.jsx("div",{className:"text-center text-[10px] text-gray-400 mt-2 font-mono",children:"80mm Thermal Receipt Simulation"})]}):r.jsx("div",{className:"w-full max-w-3xl bg-white shadow-xl rounded-xl border border-gray-200 overflow-hidden animate-in zoom-in-95 duration-150",children:r.jsx(h.q,{sale:t,settings:f})})}),P&&r.jsx(u.B,{sale:t,settings:f,isOpen:P,initialFormat:w,onClose:()=>k(!1)}),S&&r.jsx(b.a,{isOpen:S,initialSale:t,initialInvoiceNumber:t.invoiceNumber,onClose:()=>z(!1),onReturnSuccess:()=>{fetch(`/api/sales/${e.id}`).then(e=>e.json()).then(e=>{e&&!e.error&&s(e)}).catch(()=>{})}}),(0,r.jsxs)("div",{style:{position:"fixed",left:"-9999px",top:"-9999px",opacity:0,pointerEvents:"none"},children:[r.jsx("div",{ref:C,children:r.jsx(p.A,{sale:t,settings:f})}),r.jsx("div",{ref:A,style:{width:"800px"},children:r.jsx(h.q,{sale:t,settings:f})})]})]}):(0,r.jsxs)("div",{className:"flex flex-col items-center justify-center py-20 text-center",children:[r.jsx(o.Z,{className:"h-16 w-16 text-gray-400 mb-4"}),r.jsx("h2",{className:"text-2xl font-bold text-gray-800 mb-2",children:"Invoice Not Found"}),r.jsx("p",{className:"text-gray-500 mb-6",children:"The requested transaction could not be located."}),r.jsx(g.default,{href:"/sales",children:(0,r.jsxs)(n.z,{variant:"outline",children:[r.jsx(l.Z,{className:"h-4 w-4 mr-2"}),"Back to Sales"]})})]})}},69996:(e,t,s)=>{"use strict";s.r(t),s.d(t,{default:()=>r});let r=(0,s(68570).createProxy)(String.raw`C:\Users\ABS\Documents\personal project\pharmacy\src\app\(dashboard)\sales\[id]\page.tsx#default`)}};var t=require("../../../../webpack-runtime.js");t.C(e);var s=e=>t(t.s=e),r=t.X(0,[9276,7070,5800,5356,325,3087,7708,5048,8341,5173,3834,267,6783,8337,1767,2196,9343],()=>s(71192));module.exports=r})();
